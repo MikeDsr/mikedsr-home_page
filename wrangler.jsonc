@@ -1,0 +1,10 @@
+// mikedsr.top 主站：纯静态页面，public/ 里的文件原样上线
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  // 必须和 Cloudflare 后台里这个 Worker 的名字一致，否则自动构建会失败
+  "name": "soft-flower-2935",
+  "compatibility_date": "2026-11-07",
+  "assets": {
+    "directory": "./public"
+  }
+}
